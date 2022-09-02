@@ -1,0 +1,115 @@
+// @import 'style';
+
+.header {
+    padding: 30px 40px;
+    position: relative;
+
+    &-wrapper {
+        &__content {
+            &-title {
+                color: $dark-gray;
+            }
+
+            &-text {
+                color: $black-dark;
+            }
+        }
+
+        .nav {
+            &-menu {
+                &__item {
+                    &-link {
+                        color: $dark-gray;
+                    }
+                }
+
+                &__item a:hover {
+                    color: $black-dark;
+                }
+
+                &__item a:active {
+                    border-bottom: 3px solid $pink;
+                }
+            }
+        }
+    }
+
+    .pets {
+        color: $black-dark;
+        border-bottom: 3px solid $pink;
+    }
+}
+
+.friends {
+    &-wrapper {
+        .friends-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px 40px;
+            justify-content: center;
+
+            &__nav {
+                display: flex;
+                gap: 20px;
+                padding-top: 45px;
+
+                &-btn {
+                    border: 2px solid $pink;
+                    background-color: transparent;
+                    padding: 14px 20px;
+
+                }
+
+                .d-btn {
+                    padding: 14px 12px;
+                }
+
+                &-page {
+                    border: 2px solid $pink;
+                    border-radius: 100%;
+                    background-color: $pink;
+                    padding: 14px 20px;
+
+                }
+
+                .friends-list__nav-page span {
+                    color: $black-dark;
+                    font-size: 20px;
+                    font-family: $georgia;
+                }
+            }
+        }
+    }
+}
+
+@include md-block() {
+
+    .header {
+        padding: 30px;
+
+        .container {
+            max-width: 708px;
+        }
+
+        &-wrapper {
+            .nav {
+                &-menu {
+                    display: flex;
+                    column-gap: 35px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        &-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 60px;
+
+            .footer-content {
+                padding-bottom: 65px;
+            }
+        }
+    }
+}

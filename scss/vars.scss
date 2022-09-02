@@ -1,0 +1,25 @@
+$georgia: 'Georgia';
+$letter-s: 0.06em;
+$arial: 'Arial';
+
+$pink: #F1CDB3;
+$black-dark: #292929;
+$white: #fff;
+$gray: #CDCDCD;
+$gray-light: #F6F6F6;
+$hover-color: #FAFAFA;
+$dark-gray: #545454;
+$realy-dark-gray: #4C4C4C;
+$gray-text: #B2B2B2;
+
+@mixin sm-block {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin md-block {
+    @media screen and (max-width: 1024px) {
+        @content;
+    }
+}
