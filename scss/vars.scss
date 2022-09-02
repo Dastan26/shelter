@@ -13,7 +13,7 @@ $realy-dark-gray: #4C4C4C;
 $gray-text: #B2B2B2;
 
 @mixin sm-block {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
         @content;
     }
 }
