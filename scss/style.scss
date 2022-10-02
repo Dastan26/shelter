@@ -20,6 +20,11 @@
                 font-weight: 400;
                 letter-spacing: $letter-s;
                 padding-bottom: 10px;
+
+                @include sm-block {
+                    font-size: 25px;
+                    font-weight: 400;
+                }
             }
         }
 
@@ -67,10 +72,10 @@
             padding-bottom: 42px;
         }
 
-        &__image {
-            max-width: 698px;
-            height: 728px;
-        }
+        // &__image {
+        //     max-width: 698px;
+        //     height: 728px;
+        // }
     }
 }
 
@@ -296,6 +301,10 @@
 
     .item3 {
         padding-top: 32px;
+    }
+
+    &-dog {
+        padding-top: 40px;
     }
 
 }
