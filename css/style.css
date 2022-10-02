@@ -111,7 +111,7 @@ button {
 }
 
 .hero {
-  background: url(assets/images/hero-bg.jpg);
+  background: url(..\\assets/images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
