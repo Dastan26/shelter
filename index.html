@@ -35,18 +35,30 @@
                             </a>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="#!" class="nav-menu__item-link">
+                            <a href="#help" class="nav-menu__item-link">
                                 Help the shelter
                             </a>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="#!" class="nav-menu__item-link">
+                            <a href="#footer" class="nav-menu__item-link">
                                 Contacts
                             </a>
                         </li>
                     </ul>
-                    <div class="nav-bar">
-                        <img src="assets/icons/Burger.png" alt="nav-bar">
+                    <div class="burger">
+                        <div class="nav-menu__open">
+                            <div class="header-wrapper__content">
+                                <h3 class="header-wrapper__content-title">
+                                    Cozy House
+                                </h3>
+                                <p class="header-wrapper__content-text">
+                                    Shelter for pets in Boston
+                                </p>
+                            </div>
+                        </div>
+                        <div class="burger-line burger-line_first"></div>
+                        <div class="burger-line burger-line_second"></div>
+                        <div class="burger-line burger-line_third"></div>
                     </div>
                 </nav>
             </div>
@@ -78,7 +90,7 @@
         </div>
     </section>
     <div class="container">
-        <section class="about">
+        <section class="about" id="about">
             <img src="assets/images/about-pets.png" alt="pets" class="about-image">
             <div class="about-content">
                 <h2 class="about-content__title">
@@ -102,7 +114,7 @@
         </section>
     </div>
 
-    <section class="friends">
+    <section class="friends" id="friends">
         <div class="container">
             <h2 class="friends-title">
                 Our friends who <br>
@@ -150,67 +162,72 @@
         </div>
     </section>
 
-    <section class="help">
+    <section class="help" id="help">
         <div class="container">
-            <h2 class="help-title">
-                How you can help
-                our shelter
-            </h2>
-            <div class="help-items">
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-pet-food.svg" alt="pet food" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Pet food
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-transportation.svg" alt="Transportation" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Transportation
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-toys.svg" alt="Toys" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Toys
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-bowls-and-cups.svg" alt="Bowls and cups" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Bowls and cups
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-shampoos.svg" alt="Shampoos" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Shampoos
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-vitamins.svg" alt="Vitamins" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Vitamins
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-medicines.svg" alt="Medicines" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Medicines
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-collars-leashes.svg" alt="Collars / leashes"
-                        class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Collars / leashes
-                    </h3>
-                </div>
-                <div class="help-items__item">
-                    <img src="assets/icons/icon-sleeping-area.svg" alt="Sleeping areas" class="help-items__item-image">
-                    <h3 class="hepl-items__item-title">
-                        Sleeping areas
-                    </h3>
+            <div class="help-wrapper">
+                <h2 class="help-title">
+                    How you can help
+                    our shelter
+                </h2>
+                <div class="help-items">
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-pet-food.svg" alt="pet food" class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Pet food
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-transportation.svg" alt="Transportation"
+                            class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Transportation
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-toys.svg" alt="Toys" class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Toys
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-bowls-and-cups.svg" alt="Bowls and cups"
+                            class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Bowls and cups
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-shampoos.svg" alt="Shampoos" class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Shampoos
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-vitamins.svg" alt="Vitamins" class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Vitamins
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-medicines.svg" alt="Medicines" class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Medicines
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-collars-leashes.svg" alt="Collars / leashes"
+                            class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Collars / leashes
+                        </h3>
+                    </div>
+                    <div class="help-items__item">
+                        <img src="assets/icons/icon-sleeping-area.svg" alt="Sleeping areas"
+                            class="help-items__item-image">
+                        <h3 class="hepl-items__item-title">
+                            Sleeping areas
+                        </h3>
+                    </div>
                 </div>
             </div>
         </div>
@@ -241,7 +258,7 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer-wrapper">
                 <div class="footer-content">
@@ -276,6 +293,30 @@
         </div>
     </footer>
 
+    <div class="modal">
+        <div class="modal-body">
+            <div class="modal-close">x</div>
+            <img src="assets/images/pets-jennifer.jpg" alt="jennifer">
+            <div class="modal-definition">
+                <h2 class="modal-title">Jennifer</h2>
+                <h4 class="species">Dog - Labrador</h4>
+                <p class="modal-text">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new
+                    forever home. This girl really enjoys
+                    being able to go outside to run and play, but won't hesitate to play up a storm in the house if she
+                    has
+                    all of her
+                    favorite toys.</p>
+                <ul class="modal-list">
+                    <li class="parametres"><b>Age:</b> 2 months</li>
+                    <li class="parametres"><b>Inoculations:</b> none</li>
+                    <li class="parametres"><b>Diseases:</b> none</li>
+                    <li class="parametres"><b>Parasites:</b> none</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

@@ -80,6 +80,10 @@
             }
         }
     }
+
+    &-slider__item-btn {
+        height: 52px;
+    }
 }
 
 @include md-block() {
